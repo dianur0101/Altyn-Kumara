@@ -1,0 +1,45 @@
+.html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    /* background: #ffffff; */
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Charmonman', cursive;
+    /* overflow-x: hidden; */
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Sail&display=swap'); */
+
+.nav-link.active{
+    background-color: lightgrey !important;
+}
+
+
+.reserve-container{
+    position: relative;
+}
+
+.card-body{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease; 
+    -o-transition: all 1s ease; 
+    -ms-transition: all 1s ease; 
+    transition: all 1s ease;
+}
+.card-body:hover{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.image-reserve{
+    opacity: 0.3;
+    max-height: 750px;
+}
+
